@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="bloccoForm">
+                <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+                <div class="form">
+                    <div class="row1">
+                        <div class="blocco">
+                            <label for="name">Nome Cognome</label>
+                            <input id="name" type="text" name="" value="">
+                        </div>
+
+                        <div class="blocco">
+                            <label for="km">Km da percorrere</label>
+                            <input id="km" type="number" name="" value="">
+                        </div>
+
+                        <div class="blocco">
+                            <label for="age">Km da percorrere</label>
+                            <select id="age" name="">
+                                <option selected value="">Seleziona un'opzione</option>
+                                <option value="1">Minorenne</option>
+                                <option value="2">Maggiorenne</option>
+                                <option value="3">Over 65</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="row2">
+                        <input id="genera" type="button" value="Genera">
+                        <input id="annulla" type="button" value="Annulla">
+                    </div>
+                </div>
+            </div>
+            <div class="bloccoBiglietto">
+                <h2>IL TUO BIGLIETTO</h2>
+                <div class="tabella">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nome Passeggero</th>
+                                <th>Offerta</th>
+                                <th>Carrozza</th>
+                                <th>Codice CP</th>
+                                <th>Costo biglietto</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td id="nome"></td>
+                                <td id="offerta"></td>
+                                <td id="carrozza"></td>
+                                <td id="codice"></td>
+                                <td id="costoEffettivo"></td>
+                            </tr>
+
+                         </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/script.js" charset="utf-8"></script>
+    </body>
+</html>
