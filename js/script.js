@@ -11,7 +11,7 @@ generaBtn.addEventListener('click', function(){
 
     console.log(name, km, age);
 
-if (name !== " " && km > 0 && age !== " ") {
+if (name !== "" && km > 0 && age !== "") {
 
     costoTotale = costo * km;
     document.getElementById('nome').innerHTML = name;
