@@ -27,16 +27,16 @@ if (name !== "" && km > 0 && age !== "") {
     if(age == 1){ //minorenne
         var costoEffettivo = ((costoTotale * 80) / 100);
         document.getElementById('offerta').innerHTML = "Offerta Minorenne";
-        document.getElementById('costoEffettivo').innerHTML = costoEffettivo;
+        document.getElementById('costoEffettivo').innerHTML = costoEffettivo.toFixed(2);
     }else if(age == 3){ //over 65
         var costoEffettivo = ((costoTotale * 60) / 100);
         document.getElementById('offerta').innerHTML = "Offerta Over 65";
-        document.getElementById('costoEffettivo').innerHTML = costoEffettivo;
+        document.getElementById('costoEffettivo').innerHTML = costoEffettivo.toFixed(2);
 
     }else{
         var costoEffettivo = costoTotale;
         document.getElementById('offerta').innerHTML = "---";
-        document.getElementById('costoEffettivo').innerHTML = costoEffettivo;
+        document.getElementById('costoEffettivo').innerHTML = costoEffettivo.toFixed(2);
 
     }
     console.log(costoEffettivo);

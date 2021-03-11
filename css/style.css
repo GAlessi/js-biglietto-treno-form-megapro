@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: rgb(216,3,98);
 }
 
 h2{
     margin: 20px 0;
+    color: white;
 }
 .container{
     width: 100%;
@@ -42,6 +44,7 @@ label{
 input, select{
     border-radius: 5px;
     margin: 20px;
+
 }
 
 .blocco input, select{
@@ -54,6 +57,20 @@ input, select{
     justify-content: center;
 }
 
+.row2 input{
+    padding: 10px;
+}
+
 th{
-    width: 150px;
+    width: 200px;
+    line-height: 50px;
+}
+
+.tabella{
+    background-color: white;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
